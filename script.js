@@ -1,4 +1,4 @@
-let history = ["2+2=4", "5+5=20", "30-20=20"];
+let history = ["2+2=4", "5+5=10", "30-20=10"];
 
 const NEXTBTN = document.getElementById('next');
 const PREVIOUSBTN = document.getElementById('prev');
@@ -24,6 +24,7 @@ function showNextValue(){
     //     count++;
     // }
 }
+
 function showPreviousValue(){
     let shownHistory = document.getElementById('history');
     let history_content = shownHistory.textContent;
